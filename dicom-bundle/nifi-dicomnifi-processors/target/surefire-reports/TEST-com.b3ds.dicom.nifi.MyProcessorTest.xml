@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.b3ds.dicom.nifi.MyProcessorTest" time="1.225" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\B3ds\dicom-bundle"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\B3ds\dicom-bundle"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VAIBHA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\Vaibhav Shukla\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Program Files (x86)\MySQL\Connector J 8.0;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Vaibhav Shukla"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Vaibhav Shukla"/>
+    <property name="java.class.path" value="C:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -X package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TestParseDicom" classname="com.b3ds.dicom.nifi.MyProcessorTest" time="1.147">
+    <failure message="java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;" type="java.lang.AssertionError">java.lang.AssertionError: java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;
+	at com.b3ds.dicom.nifi.MyProcessorTest.TestParseDicom(MyProcessorTest.java:41)
+Caused by: java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;
+</failure>
+    <system-out><![CDATA[HelloDcm2Json
+11:54:08.831 [pool-1-thread-1] ERROR com.b3ds.dicom.nifi.DicomConverter - DicomConverter[id=e7c2d710-386d-4637-bea4-768a4ad2b19d] DicomConverter[id=e7c2d710-386d-4637-bea4-768a4ad2b19d] failed to process due to java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;; rolling back session: java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;
+11:54:08.831 [pool-1-thread-1] ERROR com.b3ds.dicom.nifi.DicomConverter - 
+java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;
+	at com.b3ds.dicom.nifi.DicomConverter$1.process(DicomConverter.java:100)
+	at org.apache.nifi.util.MockProcessSession.write(MockProcessSession.java:902)
+	at org.apache.nifi.util.MockProcessSession.write(MockProcessSession.java:62)
+	at com.b3ds.dicom.nifi.DicomConverter.onTrigger(DicomConverter.java:92)
+	at org.apache.nifi.processor.AbstractProcessor.onTrigger(AbstractProcessor.java:27)
+	at org.apache.nifi.util.StandardProcessorTestRunner$RunProcessor.call(StandardProcessorTestRunner.java:251)
+	at org.apache.nifi.util.StandardProcessorTestRunner$RunProcessor.call(StandardProcessorTestRunner.java:245)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/maven_repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/maven_repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/maven_repo/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+]]></system-err>
+  </testcase>
+</testsuite>

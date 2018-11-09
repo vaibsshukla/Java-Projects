@@ -1,0 +1,6 @@
+#surefire_0
+#Tue Oct 23 11:54:06 IST 2018
+java.awt.headless=true
+user.dir=D\:\\B3ds\\dicom-bundle\\nifi-dicomnifi-processors
+localRepository=D\:\\maven_repo
+basedir=D\:\\B3ds\\dicom-bundle\\nifi-dicomnifi-processors

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: nifi-dicomnifi-processors
+Implementation-Version: 1.0.0
+Built-By: Vaibhav Shukla
+Specification-Vendor: Apache NiFi Project
+Specification-Title: nifi-dicomnifi-processors
+Implementation-Vendor-Id: com.b3ds.dicom.nifi
+Build-Jdk: 1.8.0_181
+Specification-Version: 1.0
+Implementation-URL: http://nifi.apache.org/nifi-nar-bundles/dicom-bund
+ le/nifi-dicomnifi-processors
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Apache NiFi Project
+

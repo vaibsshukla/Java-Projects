@@ -1,0 +1,23 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/maven_repo/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/maven_repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/maven_repo/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+HelloDcm2Json
+11:54:08.831 [pool-1-thread-1] ERROR com.b3ds.dicom.nifi.DicomConverter - DicomConverter[id=e7c2d710-386d-4637-bea4-768a4ad2b19d] DicomConverter[id=e7c2d710-386d-4637-bea4-768a4ad2b19d] failed to process due to java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;; rolling back session: java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;
+11:54:08.831 [pool-1-thread-1] ERROR com.b3ds.dicom.nifi.DicomConverter - 
+java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;
+	at com.b3ds.dicom.nifi.DicomConverter$1.process(DicomConverter.java:100)
+	at org.apache.nifi.util.MockProcessSession.write(MockProcessSession.java:902)
+	at org.apache.nifi.util.MockProcessSession.write(MockProcessSession.java:62)
+	at com.b3ds.dicom.nifi.DicomConverter.onTrigger(DicomConverter.java:92)
+	at org.apache.nifi.processor.AbstractProcessor.onTrigger(AbstractProcessor.java:27)
+	at org.apache.nifi.util.StandardProcessorTestRunner$RunProcessor.call(StandardProcessorTestRunner.java:251)
+	at org.apache.nifi.util.StandardProcessorTestRunner$RunProcessor.call(StandardProcessorTestRunner.java:245)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

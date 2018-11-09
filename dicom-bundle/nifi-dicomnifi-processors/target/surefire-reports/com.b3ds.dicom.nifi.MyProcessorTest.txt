@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.b3ds.dicom.nifi.MyProcessorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.225 sec <<< FAILURE! - in com.b3ds.dicom.nifi.MyProcessorTest
+TestParseDicom(com.b3ds.dicom.nifi.MyProcessorTest)  Time elapsed: 1.147 sec  <<< FAILURE!
+java.lang.AssertionError: java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;
+	at com.b3ds.dicom.nifi.MyProcessorTest.TestParseDicom(MyProcessorTest.java:41)
+Caused by: java.lang.NoSuchMethodError: org.b3ds.dicom.Dcm2Json.CreatingFolder(Ljava/lang/String;)Ljava/lang/String;
+
